@@ -28,6 +28,13 @@ def get_fibonacci_number_sequence(n):
     return number_sequence
 
 if __name__ == "__main__":
-   position = 3
-   fib_num = get_fibonacci_number(position)
-   print(f"The fibonacci number in position {position} is {fib_num}")
+# testing out position
+    position = 3
+    fib_num = get_fibonacci_number(position)
+    print(f"The fibonacci number in position {position} is {fib_num}")
+# testing out sequence 
+    n = 7
+    fib_sequence = get_fibonacci_number_sequence
+    print(f"The Fibonacci sequence for {n} is {fib_sequence} ")
+
+
