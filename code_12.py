@@ -8,17 +8,17 @@ def get_fibonacci_number(position):
 
 
 def get_fibonacci_number_sequence(n):
-    if n == 0:
-        return [0]
     if n == 1:
-        return [0,1]
+        return [1]
+    if n == 2:
+        return [1,1]
     
-    previous_x = 0
+    previous_x = 1
     previous_y = 1
 
-    number_sequence = [0,1]
+    number_sequence = [1,1]
 
-    for i in range(2, n+1):
+    for i in range(2,n):
         current = previous_x + previous_y
         previous_x = previous_y
         previous_y = current
