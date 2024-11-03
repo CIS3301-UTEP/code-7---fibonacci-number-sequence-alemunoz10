@@ -34,7 +34,7 @@ if __name__ == "__main__":
     print(f"The fibonacci number in position {position} is {fib_num}")
 # testing out sequence 
     n = 7
-    fib_sequence = get_fibonacci_number_sequence
+    fib_sequence = get_fibonacci_number_sequence(n)
     print(f"The Fibonacci sequence for {n} is {fib_sequence} ")
 
 
